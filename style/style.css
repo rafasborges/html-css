@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor--primaria:#000000;
+    --cor--secundaria: #F6F6F6;
+    --cor--terciaria: #22D4FD;
+
+    --fonte--titulo:
+}
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +22,8 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #22D4FD;
+    color:var(--cor--terciaria);
+    text-decoration: none;
 }
 
 .apresentacao{
@@ -59,11 +67,11 @@
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor--terciaria);
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: white;
+    color: var(--cor--secundaria);
     font-family: "Montserrat", sans-serif;
 }
 .botao:hover{
@@ -72,15 +80,15 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: black;
-    color: #f6f6f6;
+    background-color: var(--cor--primaria);
+    color: var(--cor--secundaria);
 }
 .titulo-destaque {
-    color: #22D4FD;   
+    color: var(--cor--terciaria);   
 }
 .rodape{
-    color: black;
-    background-color: #22D4FD;
+    color: var(--cor--primaria);
+    background-color: var(--cor--terciaria);
     padding: 24px;
     text-align: center;
     font-family: "Montserrat", sans-serif;

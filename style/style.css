@@ -22,7 +22,7 @@
 .cabecalho__menu__link{
     font-family: var(--fonte--texto);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color:var(--cor--terciaria);
     text-decoration: none;
 }
@@ -35,17 +35,17 @@
     /*margin: 10%;*/
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte--titulo);
 }
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte--texto);
 }
 .apresentacao__links{
@@ -58,18 +58,18 @@
 .apresentacao__links__subtitulo{
     font-family: var(--fonte--titulo);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .botao{
     /* background-color: #22D4FD;*/
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor--terciaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor--secundaria);
@@ -78,6 +78,10 @@
 .botao:hover{
     background-color: #272727;
 }
+.apresentacao_imagem{
+    width: 50%;
+}
+    
 body{
     height: 100vh;
     box-sizing: border-box;
@@ -93,6 +97,6 @@ body{
     padding: 24px;
     text-align: center;
     font-family: var(--fonte--texto);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }

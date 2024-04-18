@@ -100,3 +100,15 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media (max-widhth: 1200px) {
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+}
